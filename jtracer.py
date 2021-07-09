@@ -128,7 +128,7 @@ if instrument:
     print t, 'PV:', pv_voltage, 'V', pv_current, 'A', pv_voltage * pv_current, 'W', 
     print 'Battery:', batt_voltage, 'V', batt_current_l, 'A', batt_voltage * batt_current_l, 'W', batt_soc, '%'
   
-    break
+    # break
   
     # Time delay of 10 seconds after each run
     
