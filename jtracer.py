@@ -40,12 +40,12 @@ BATT_VOLTAGE = 0x331A # Battery voltage
 BATT_CURRENT_L = 0x331B # Battery current L
 BATT_CURRENT_H = 0x331C # Battery current H
 
-def setParameters(x,b):
+def setParameters( port, baudrate ):
   'set parameters for communication'
   try:
-    ins = minimalmodbus.Instrument(x, 1, debug=False)
+    ins = minimalmodbus.Instrument(port, 1, debug=False)
 
-    ins.serial.baudrate = b
+    ins.serial.baudrate = baudrate
     #ins.serial.bytesize = 8
     #ins.serial.stopbits = 1
     #ins.serial.parity = serial.PARITY_NONE
