@@ -125,8 +125,7 @@ if instrument:
     #batt_current_h = readint( BATT_CURRENT_H )
     batt_soc = readint( BATT_SOC )
   
-    print t, 'PV:', pv_voltage, 'V', pv_current, 'A', pv_voltage * pv_current, 'W', 
-    print 'Battery:', batt_voltage, 'V', batt_current_l, 'A', batt_voltage * batt_current_l, 'W', batt_soc, '%'
+    print '%s -- PV: %5.2f V %4.2f A %6.2f W -- Battery: %5.2f V %4.2f A %6.2f W %.0f %s' % (t, pv_voltage, pv_current, pv_voltage * pv_current, batt_voltage, batt_current_l, batt_voltage * batt_current_l, batt_soc, '%')
   
     # break
   
