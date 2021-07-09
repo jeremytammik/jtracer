@@ -1,0 +1,33 @@
+setParameters: minimalmodbus.Instrument<id=0x10dea3440, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x10dea2710, open=True>(port='/dev/tty.SLAB_USBtoUART', baudrate=115200, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=False, rtscts=False, dsrdtr=False)>
+2021-06-27 13:11:26 0x3100 PV Voltage 68.29
+2021-06-27 13:11:26 0x3101 PV Current 1.73
+2021-06-27 13:11:26 0x3102 115.56
+2021-06-27 13:11:26 0x3103 0.0
+2021-06-27 13:11:26 0x3104 13.36
+2021-06-27 13:11:26 0x3105 8.88
+2021-06-27 13:11:26 0x3106 114.89
+2021-06-27 13:11:26 0x3107 0.0
+2021-06-27 13:11:26 0x3108 13.36
+2021-06-27 13:11:26 0x3109 0.03
+2021-06-27 13:11:26 0x310a 0.53
+2021-06-27 13:11:26 0x310b 0.0
+2021-06-27 13:11:26 0x310c 13.36
+2021-06-27 13:11:26 0x310d 0.06
+2021-06-27 13:11:26 0x310e 0.66
+2021-06-27 13:11:26 0x310f 0.0
+2021-06-27 13:11:26 0x3110 25.47
+2021-06-27 13:11:26 0x3111 29.81
+2021-06-27 13:11:26 0x3112 29.82
+2021-06-27 13:11:26 0x3113 25.48
+2021-06-27 13:11:26 0x3114 Failed to read register from instrument: 0x3114
+2021-06-27 13:11:26 0x3115 Failed to read register from instrument: 0x3115
+2021-06-27 13:11:26 0x3116 Failed to read register from instrument: 0x3116
+2021-06-27 13:11:26 0x3117 Failed to read register from instrument: 0x3117
+2021-06-27 13:11:26 0x3118 Failed to read register from instrument: 0x3118
+2021-06-27 13:11:26 0x3119 Failed to read register from instrument: 0x3119
+2021-06-27 13:11:26 0x311a 0.84
+2021-06-27 13:11:26 0x311b 0.0
+2021-06-27 13:11:26 0x311c Failed to read register from instrument: 0x311c
+2021-06-27 13:11:26 0x311d 12.0
+2021-06-27 13:11:26 0x311e Failed to read register from instrument: 0x311e
+2021-06-27 13:11:26 0x311f Failed to read register from instrument: 0x311f

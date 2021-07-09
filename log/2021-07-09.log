@@ -1,0 +1,16 @@
+$ python jtracer.py
+setParameters: minimalmodbus.Instrument<id=0x102343488, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x10233fa50, open=True>(port='/dev/tty.SLAB_USBtoUART', baudrate=115200, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=False, rtscts=False, dsrdtr=False)>
+2021-07-09 11:42:31
+PV: 71.28 V 1.22 A 86.9616 W Battery: 13.3 V 6.5 A 86.45 W 0.82 %
+Day Min 7.64 V, Max 13.78 V
+kWh day/month/year/total 0.43 50.12 50.12 50.12
+Consumed kWh day/month/year/total 0.01 3.31 3.31 3.31
+2021-07-09 11:42:31 -- PV: 70.12 V 1.23 A  86.25 W -- Battery: 13.30 V 6.43 A  85.52 W 82 %
+2021-07-09 11:42:41 -- PV: 68.74 V 1.25 A  85.92 W -- Battery: 13.29 V 6.37 A  84.66 W 82 %
+2021-07-09 11:42:51 -- PV: 69.29 V 1.25 A  86.61 W -- Battery: 13.31 V 6.44 A  85.72 W 82 %
+2021-07-09 11:43:01 -- PV: 70.11 V 1.24 A  86.94 W -- Battery: 13.25 V 6.40 A  84.80 W 82 %
+2021-07-09 11:43:12 -- PV: 69.00 V 1.24 A  85.56 W -- Battery: 13.29 V 6.40 A  85.06 W 81 %
+2021-07-09 11:43:22 -- PV: 68.38 V 1.25 A  85.47 W -- Battery: 13.30 V 6.43 A  85.52 W 82 %
+2021-07-09 11:43:32 -- PV: 67.89 V 1.25 A  84.86 W -- Battery: 13.30 V 6.51 A  86.58 W 82 %
+2021-07-09 11:43:42 -- PV: 68.37 V 1.26 A  86.15 W -- Battery: 13.32 V 6.46 A  86.05 W 82 %
+2021-07-09 11:43:52 -- PV: 69.66 V 1.24 A  86.38 W -- Battery: 13.30 V 6.52 A  86.72 W 83 %

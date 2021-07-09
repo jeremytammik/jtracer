@@ -1,0 +1,9 @@
+setParameters: minimalmodbus.Instrument<id=0x10c163440, address=1, mode=rtu, close_port_after_each_call=False, precalculate_read_size=True, clear_buffers_before_each_transaction=True, handle_local_echo=False, debug=False, serial=Serial<id=0x10c160810, open=True>(port='/dev/tty.SLAB_USBtoUART', baudrate=115200, bytesize=8, parity='N', stopbits=1, timeout=1, xonxoff=False, rtscts=False, dsrdtr=False)>
+2021-07-08 10:07:37 PV Voltage 70.07
+2021-07-08 10:07:37 PV Current 0.97
+2021-07-08 10:07:37 Battery Voltage 13.04
+2021-07-08 10:07:37 Battery Current L 5.29
+2021-07-08 10:07:37 Battery Current H 0.0
+2021-07-08 10:07:37 Battery SOC 0.71
+2021-07-08 10:07:37 Battery Voltage min today 11.63
+2021-07-08 10:07:37 Battery Voltage max today 13.2
