@@ -1,3 +1,4 @@
+#!/usr/bin/python
 '''
 jmain.py - connect to tracer
 connect to EPEver Tracer 3210AN charge controller via Serial Modbus RS485
