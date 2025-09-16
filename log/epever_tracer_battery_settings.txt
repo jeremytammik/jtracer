@@ -1,0 +1,40 @@
+[InstallSetup]
+language=En
+
+[Battery Parameter Settings]
+set_cap*Battery Capacity=280Ah
+set_tstime*Boost Charging Time=10min
+set_htime*Equalize Charging Time=0min
+setsys4*Battery Temperature Upper Limit=50.00°C
+setsys5*Battery Temperature Lower Limit=0.00°C
+setsys6*Li-Batt Low Temperature Charging Limit=0.03℃
+setsys7*Li-Bat Low Temperature Discharging Limit=0.01℃
+
+[Battery Control Parameter]
+VTYPE*Battery Type=User
+VLEVEL*Rated Voltage=24V
+OVD*Overvoltage Disconnect Voltage=28.60V
+CLV*Charging Limit Voltage=28.50V
+OVR*Overvoltage Recovery Voltage=28.00V
+ECV*Equalize Charging Voltage=28.50V
+BCV*Bulk Charging Voltage=28.00V
+FCV*Float Charging Voltage=27.20V
+BVR*Bulk Voltage Recovery Voltage=26.40V
+LVR*Low Voltage Recovery Voltage=26.00V
+UVR*Undervoltage Alarm Recovery Voltage=26.00V
+UVW*Undervoltage Alarm Voltage=25.20V
+LVD*Low Voltage Disconnect Voltage=25.20V
+DLV*Discharging Voltage Limit Voltage=25.20V
+sysdeviceparareservel*Li-ion Battery Protect=Enable
+tempcmpcoe*Temperature Compensation=0mV/℃/2V
+
+[Load Configuration]
+set_load1*Load control mode=Manual Control
+set_load2*Manually Default Switch=Manually on by default
+
+[Device Parameter Settings]
+setsys1*Backlight Time=60s
+setsys2*Device Temperature Upper Limit=55.00℃
+setsys3*Device Over Temperature Recovery=50.00℃
+RealTimeMS*Device Time=Dec-16-2016 16:20:37
+DeviceBaudRate*Device Baud Rate=115200Bd
