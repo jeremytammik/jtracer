@@ -32,11 +32,11 @@ REG_BOOST_VOLT         = 36871  # 0x9007
 REG_FLOAT_VOLT         = 36872  # 0x9008
 REG_BATTERY_TYPE       = 36880  # 0x9010
 
-# Desired settings (Volts)
-NEW_CHARGING_LIMIT = 28.00
-NEW_EQUALIZE       = 27.60
-NEW_BOOST          = 27.40
-NEW_FLOAT          = 27.00
+# Desired settings (in 0.01 Volt increments)
+NEW_CHARGING_LIMIT = 2800
+NEW_EQUALIZE       = 2760
+NEW_BOOST          = 2740
+NEW_FLOAT          = 2700
 NEW_BATTERY_TYPE   = 3  # User/Custom
 # ----------------------------------------
 
