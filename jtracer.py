@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!python3
 '''
 jmain.py - connect to tracer
 connect to EPEver Tracer 3210AN charge controller via Serial Modbus RS485
@@ -16,6 +16,8 @@ import minimalmodbus
 
 # Define the registers from the PDF documentation
 
+PORT='/dev/tty.SLAB_USBtoUART' # MacOS
+PORT='/dev/ttyUSB0' # Linux Mint
 PV_VOLTAGE = 0x3100
 PV_CURRENT = 0x3101
 BATT_SOC = 0x311A # state of charge, the percentage of battery remaining capacity
@@ -77,7 +79,7 @@ baudrate = 115200
 
 #instrument = setParameters('COM port name', Baud rate, Slave Address)
 #instrument = setParameters('COM21', 19200, 111)
-instrument = setParameters( '/dev/tty.SLAB_USBtoUART', baudrate )
+instrument = setParameters( PORT, baudrate )
 
 if instrument:
 
