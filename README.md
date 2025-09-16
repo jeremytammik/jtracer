@@ -10,7 +10,7 @@ It requires a [CP210x USB to UART Bridge Virtual COM Port (VCP) driver](https://
 ## Configuration Attempt
 
 Failed in the end.
-I ended up using the EPEver Windows software, cf. the following chast logs with ChatGPT and Gemini:
+I ended up using the EPEver Windows software, cf. the following chat logs with ChatGPT and Gemini:
 
 - [Modbus library for EPEver](https://chatgpt.com/share/68c942dc-7918-8005-8208-98fe52c63e58)
 - [Connect Epever Tracer to Windows Software](https://g.co/gemini/share/922daad79e30)
